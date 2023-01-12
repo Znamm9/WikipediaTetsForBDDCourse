@@ -1,4 +1,4 @@
-package steps;
+package io.cucumber.wiki;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -6,15 +6,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.ja.且つ;
-import io.cucumber.java.sl.In;
-import io.cucumber.skeleton.Belly;
+import io.cucumber.wiki.pageObjects.Pages;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageObjects.Pages;
 
 public class StepDefinitions {
 

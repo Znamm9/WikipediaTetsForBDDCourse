@@ -1,4 +1,4 @@
-package steps;
+package io.cucumber.wiki;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
@@ -10,8 +10,8 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("features")
+@SelectClasspathResource("io/cucumber/wiki")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
-@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "feature")
+@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "io.cucumber.wiki")
 public class RunCucumberTest {
 }

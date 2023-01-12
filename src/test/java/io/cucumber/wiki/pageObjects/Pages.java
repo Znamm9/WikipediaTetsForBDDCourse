@@ -1,5 +1,6 @@
-package pageObjects;
+package io.cucumber.wiki.pageObjects;
 
+import io.cucumber.wiki.SearchResultsPage;
 import org.openqa.selenium.WebDriver;
 
 public class Pages extends BasePage{

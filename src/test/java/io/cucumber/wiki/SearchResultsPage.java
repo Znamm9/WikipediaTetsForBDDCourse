@@ -1,12 +1,10 @@
-package pageObjects;
+package io.cucumber.wiki;
 
-import io.cucumber.plugin.event.WriteEvent;
+import io.cucumber.wiki.pageObjects.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import javax.swing.*;
-
-public class SearchResultsPage extends BasePage{
+public class SearchResultsPage extends BasePage {
     public SearchResultsPage(WebDriver driver) {
         super(driver);
     }
